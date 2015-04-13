@@ -1,0 +1,108 @@
+{
+
+	"personne":
+    {
+      "prenom": "Jérémy",
+      "nom": "Melchor",
+      "age": "20 ans",
+      "date": "15 Novembre 1994",
+      "ville": "Nice",
+      "telephone": "06 23 47 61 48",
+      "email": "melchor.pro@gmail.com",
+      "apropos": "Etudiant",
+      "whatIdo": "Je suis étudiant en école d'ingénieur, spécialité informatique en 3ème année"
+    },
+
+	"diplome": [
+    {
+      "date": "2012",
+      "diplome": "Baccalauréat scientifique mention Bien"
+    }
+  ],
+
+  "education": [
+		{
+			"ecole": "Lycée Beau-Site",
+			"date": "2010-2012",
+			"specialite": "Spécialité scientifique"
+		},
+		{
+			"ecole": "Polytech",
+			"date": "2012-2017",
+			"specialite": "Spécialité informatique",
+			"detail": "J'ai passé 5 ans à Polytech. Celà a commencé avec 2 années de prépa, puis je me suis spécialisé dans les sciences informatiques"
+		}
+  ],
+
+	"experiences": [
+		{
+			"statut": "Manutentionnaire",
+			"date": "Juin-Août / 2012,2013,2014",
+			"nom": "Super U",
+			"detail": "J'ai travaillé à plusieurs reprises en tant que metteur en rayon pendant les périodes d'été"
+		}
+  ],
+
+	"projets": [
+		{
+			"nom": "2048",
+			"date": "2014",
+			"type": "Jeu",
+			"detail": "Le jeu 2048. Fait en Java"
+
+		},
+		{
+			"nom": "eSwap",
+			"date": "2014",
+			"type": "Site web",
+			"detail": "Site web de troc en ligne"
+		},
+		{
+			"nom": "DeViNT",
+			"date": "2015",
+			"type": "Jeu",
+			"detail": "minis jeux sur internet, contrôlés par le smartphone. Ces minis jeux ont été développé pour les gens ayant une déficience visuelle. Outils de développement : html,CSS,Javascript,Node JS,JQuery"
+		},
+		{
+			"nom": "Island",
+			"date": "2015",
+			"type": "Simulation",
+			"detail": "Simulation de récupération de ressources sur une île générée. Outil de développement: Java"
+		}
+  ],
+
+	"skills": [
+		{
+			"nom": "html & CSS",
+			"valeur": "70%"
+		},
+		{
+			"nom": "PHP",
+			"valeur": "50%"
+		},
+		{
+			"nom": "Javascript",
+			"valeur": "50%"
+		},
+		{
+			"nom": "Node JS",
+			"valeur": "40%"
+		},
+		{
+			"nom": "Angular JS",
+			"valeur": "10%"
+		},
+		{
+			"nom": "Java",
+			"valeur": "80%"
+		},
+		{
+			"nom": "C",
+			"valeur": "25%"
+		},
+		{
+			"nom": "Shell",
+			"valeur": "20%"
+		}
+  ]
+}

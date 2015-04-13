@@ -1,0 +1,99 @@
+<body id="top">
+<div id="cv" class="instaFade">
+  <div class="mainDetails">
+    <div id="headshot">
+      <img src="images/headshot.jpg" alt="{{name}}" />
+    </div>
+
+    <div id="name">
+      <h1>{{name}}</h1>
+      <h2>{{apropos}}</h2>
+    </div>
+
+    <div id="contactDetails">
+      <ul>
+        <li>e: <a href={{email}} target="_blank">{{email}}</a></li>
+        <li>m: {{telephone}}</li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <div id="mainArea">
+    <section>
+      <article>
+        <div class="sectionTitle">
+          <h1>Profil Personnel</h1>
+        </div>
+
+        <div class="sectionContent">
+          <p>{{whatIdo}}</p>
+        </div>
+      </article>
+      <div class="clear"></div>
+    </section>
+
+
+    <section>
+      <div class="sectionTitle">
+        <h1>Experiences</h1>
+      </div>
+
+      <div class="sectionContent">
+        <article ng-repeat="e in experiences">
+          <h2>{{e.statut}}</h2>
+          <p class="subDetails">{{e.date}} {{e.nom}}</p>
+          <p>{{e.detail}}</p>
+        </article>
+      </div>
+      <div class="clear"></div>
+    </section>
+
+
+    <section>
+      <div class="sectionTitle">
+        <h1>Compétences</h1>
+      </div>
+
+      <div class="sectionContent">
+        <ul class="keySkills">
+          <li ng-repeat="s in skills">{{s.nom +" : "+s.valeur}}</li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </section>
+
+
+    <section>
+      <div class="sectionTitle">
+        <h1>Education</h1>
+      </div>
+
+      <div class="sectionContent">
+        <article ng-repeat="e in education">
+          <h2>{{e.ecole}}</h2>
+          <p class="subDetails">{{e.specialite}} - {{e.date}}</p>
+          <p>{{e.detail}}</p>
+        </article>
+      </div>
+      <div class="clear"></div>
+    </section>
+
+    <section>
+      <div class="sectionTitle">
+        <h1>Projets</h1>
+      </div>
+
+      <div class="sectionContent">
+        <article ng-repeat="p in projets">
+          <h2>{{p.nom}}</h2>
+          <p class="subDetails">{{p.date}} - type:{{p.type}}</p>
+          <p>{{p.detail}}</p>
+        </article>
+      </div>
+      <div class="clear"></div>
+    </section>
+
+  </div>
+</div>
+</body>
